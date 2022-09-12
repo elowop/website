@@ -1,0 +1,16 @@
+.navbar_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-height: 30px;
+}
+
+.spacer {
+    width: 50%;
+}
+
+.button_box {
+    max-width: 10%;
+    display: inline-block;
+    margin: auto;
+}

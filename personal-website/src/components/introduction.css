@@ -1,0 +1,77 @@
+.go_content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.go_down {
+    height: 50px;
+    width: 100%;
+    text-align: center; 
+}
+
+.title_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_image {
+    width: 50%;
+    display: block;
+}
+
+/* change to alter width*/ 
+.title {
+    margin-left: 2%;
+    width: 15%;
+}
+
+.container {
+    width: 30%;
+    margin-left: -20%;
+}
+
+.crop {
+    margin-left: 35%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.format {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
+  }
+
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+}

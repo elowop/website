@@ -1,0 +1,15 @@
+.carosel {
+    height: 630px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-style: solid; 
+    border-radius: 15px;
+    margin: auto;
+}
+
+.project_title_box { 
+    margin-left: 3%;
+    height: 50px;
+}
